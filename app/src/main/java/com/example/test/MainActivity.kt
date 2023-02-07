@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //１）idを取得
+        //１）id
         val tx: TextView = findViewById(R.id.tv)
         val btn1: Button = findViewById(R.id.btnRice)
         val btn2: Button = findViewById(R.id.btnBread)
